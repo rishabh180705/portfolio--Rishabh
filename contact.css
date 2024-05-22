@@ -1,0 +1,251 @@
+
+/* Contact Me section styling--------------------------- */
+.contact{
+    background:#222;
+}
+.contact .title{
+    color:#ccc
+}
+.contact .contact-content {
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+    background:#222;
+    
+  }
+  .contact .contact-content p{
+    font-family: 'Ubuntu', sans-serif; 
+    font-size:29px;
+    color:crimson;
+    
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4d5357;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:1.1rem;
+  }
+  input[type=submit]:hover {
+background:crimson;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    background:#4d5357;
+    padding: 6px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:20px;
+  }
+  input[type=email], select {
+    width: 100%;
+    background:#4d5357;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:20px;
+  }
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size:20px;
+  }
+    /* footer section styling -------------- */
+  /* .footerz{
+    display:flex;
+    flex-direction:column;
+   
+  } */
+  .footerz p{
+    text-align: center;
+    background:skyblue;
+    font-size:20px;
+    padding-bottom:4px;
+  }
+  .foot{
+   background-color:skyblue;
+    display:flex;
+    height:80px;
+    gap: 30px;
+    justify-content:center;
+    align-items:center;
+  }
+  .foot i{
+    color: black;
+    font-size:35px;
+  }
+  .foot i:hover{
+    color: #222;
+    font-size:30px;
+  }
+
+
+/* Achievements section styling------------------------------- */
+.achievement{
+    background: #222;
+}
+.achievement .title{
+    color:#fff;
+}
+.achieve{
+    width:60%;
+    height:500px;
+    margin:auto;
+    margin-top: 100px;
+    
+    box-shadow: 0px 0px 3px grey;
+    position:relative;
+    overflow:hidden;
+}
+.slide{
+    background:#222;
+    height:100%;
+   width: 100%;
+   
+    position:absolute;
+    transition:1s;
+    padding:40px;
+    
+}
+.n{
+    text-align:center;
+
+}
+.n button {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    box-shadow: 0px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 17px;
+    background: #4d5357;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+  }
+  
+  .n button:hover {
+    background: crimson;
+    text-decoration: none;
+  }
+
+
+
+  @media(max-width:1200px ){
+  .achieve{
+   
+    width:100%;
+    height:500px;
+    margin:auto;
+    margin-top: 100px;
+    
+    box-shadow: 0px 0px 3px grey;
+    position:relative;
+    overflow:hidden;
+}
+.slide{
+    height:400px;
+   width: 100%;
+   margin-top:50px;
+    position:absolute;
+    transition:1s;
+    padding:40px;
+
+    
+}
+  }
+
+  @media(max-width: 991px){
+  .achieve{
+   
+    width:100%;
+    height:500px;
+    margin:auto;
+    margin-top: 100px;
+    
+    box-shadow: 0px 0px 3px grey;
+    position:relative;
+    overflow:hidden;
+}
+.slide{
+    height:400px;
+   width: 100%;
+   margin-top:50px;
+    position:absolute;
+    transition:1s;
+    padding:40px;
+
+    
+}
+  }
+
+
+
+  @media(max-width:947px){
+  .achieve{
+   
+    width:100%;
+    height:500px;
+    margin:auto;
+    margin-top: 100px;
+    
+    box-shadow: 0px 0px 3px grey;
+    position:relative;
+    overflow:hidden;
+}
+.slide{
+    height:400px;
+   width: 100%;
+   margin-top:50px;
+    position:absolute;
+    transition:1s;
+    padding:40px;
+
+    
+}
+  }
+
+
+  @media(max-width: 500px){
+  .achieve{
+   
+    width:100%;
+    height:500px;
+    margin:auto;
+    margin-top: 100px;
+    
+    box-shadow: 0px 0px 3px grey;
+    position:relative;
+    overflow:hidden;
+}
+.slide{
+    height:400px;
+   width: 100%;
+   margin-top:50px;
+    position:absolute;
+    transition:1s;
+    padding:40px;
+
+    
+}
+  }
