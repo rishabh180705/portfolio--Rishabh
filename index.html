@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <title>Portfolio-Rishabh</title>
-    
+
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -36,17 +36,18 @@
                     <!-- <li class="hover:text-indigo-900 hover:text-xl"><a href="#gallery">Gallery</a></li> -->
                     <li class="hover:text-indigo-900 hover:text-xl"><a href="#contact">Contact</a></li>
                 </ul>
-                <img class="flex space-x-3 md:space-x-5 lg:space-x-8">
-                    <img  id="moon" src="./images/dark_mode_24dp_FILL0_wght400_GRAD0_opsz24.svg" class=" cursor-pointer dark:bg-white bg-yellow-400 "
-                    alt="darkmode" role="button"></img>
+                <div class="flex space-x-5 md:space-x-5 lg:space-x-8 text-center items-center">
+                    <!-- <img  id="moon" src="./images/dark_mode_24dp_FILL0_wght400_GRAD0_opsz24.svg" class=" cursor-pointer dark:bg-white"
+                    alt="darkmode" role="button"></img> -->
+                    <div id="moon" class="h-10 w-10 cursor-pointer dark:bg-yellow-400 rounded-full bg-white top-2 right-2"></div>
                     <div id="hamburger" class="space-y-1 cursor-pointer md:hidden">
                         <div class="w-6 h-0.5 bg-black dark:bg-white"></div>
                         <div class="w-6 h-0.5 bg-black dark:bg-white"></div>
                         <div class="w-6 h-0.5 bg-black dark:bg-white"></div>
                     </div>
                 </div>
-                
-              
+
+
                 <ul id="menu"
                     class="hidden bg-indigo-950 absolute left-0 top-0 w-full p-10 rounded-b-3xl text-yellow-50 space-y-10 text-xl text-center">
                     <li><img id="close" src="./images/close_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Close"
@@ -66,22 +67,28 @@
     </div>
     <!-- intro section -->
     <!-- <div class="bg-gradient-to-t from-indigo-200 to-indigo-100 h-screen dark:(bg-gradient-to-t dark:from-blue-950 to-slate-500) bg-[url('./images/Untitled design.jpg')]"> -->
-       <div class="lg:w-full  h-svh dark:bg-gradient-to-t dark:from-blue-950 to-slate-500"><div class="bg-[url('./images/Untitleddesign.png')] h-full bg-no-repeat bg-cover bg-left-top"></div> </div>
-        <!-- Home section -->
-        <section id="home">
-            <div class="absolute md:content-center lg:top-32 top-1/3 ">
-                <div class="text-slate-800 dark:text-blue-950">
-                    <div class="font-bold text-4xl mx-4">Hello, my name is</div>
-                    <div class="text-5xl sm:text-8xl md:text-[140px] font-extrabold mx-4">Rishabh Singh</div>
-                    <div class="mb-10 font-bold text-5xl mx-5">And I'm a <span class="text-indigo-950">Coder</span>
-                    </div>
-                    <a class=" dark:bg-slate-700 ml-20 bg-indigo-900 p-5 mt-10 text-5xl rounded-lg text-white" href="#contact">Hire me</a>
+    <div class="lg:w-full  h-svh dark:bg-gradient-to-t dark:from-blue-950 to-slate-500">
+        <div class="bg-[url('./images/Untitleddesign.png')] h-full bg-no-repeat bg-cover bg-left-top"></div>
+    </div>
+    <!-- Home section -->
+    <section id="home">
+        <div class="absolute md:content-center lg:top-32 top-1/3 ">
+            <div class="text-slate-800 dark:text-blue-950">
+                <div class="font-bold text-4xl mx-4">Hello, my name is</div>
+                <div class="text-5xl sm:text-8xl md:text-[140px] font-extrabold mx-4">Rishabh Singh</div>
+                <div class="mb-10 font-bold text-2xl mx-10">And I'm a <span class="text-indigo-950">CSE student at GGSIPU, pre-final year, </span>
+                    <div class="mb-10 font-bold text-2xl mx-5">passionate about web development and competitive programming.</div>
                 </div>
+                <a class=" dark:bg-slate-700 ml-20 bg-indigo-900 p-5 mt-10 text-2xl rounded-lg text-white"
+                    href="#contact">Hire me</a>
             </div>
-                   <div id="time" class="w-32  h-5 absolute bottom-2 left-0 font-bold p-6  text-4xl text-center"></div>
-            <!-- <img class="  overflow-hidden object-cover "
+
+        </div>
+        <div id="time"
+            class="absolute bottom-1 left-2 font-bold text-blue-950 p-6  text-4xl text-center"></div>
+        <!-- <img class="  overflow-hidden object-cover "
                 src="./images/Untitled design.jpg" alt="rishabh"> -->
-        </section>
+    </section>
     </div>
 
     <!-- About section starts -->
@@ -122,7 +129,9 @@
                     programming.I am hardworking and passionate about my work.I am also trying to learn new
                     technologies like AI,machine learning and graphic designing.
                 </p>
-                <a class="p-2 rounded-xl bg-indigo-950 text-white " href="https://drive.google.com/file/d/1I82dqtJ3GZf6h1ENwzkxOEfg3zI4uVkM/view?usp=sharing">Download CV</a>
+                <a class="p-2 rounded-xl bg-indigo-950 text-white "
+                    href="https://drive.google.com/file/d/1I82dqtJ3GZf6h1ENwzkxOEfg3zI4uVkM/view?usp=sharing">Download
+                    CV</a>
             </div>
 
         </div>
@@ -132,8 +141,10 @@
     <section id="skills" class="w-full h-full py-20  dark:bg-neutral-800">
         <div class="container mx-auto">
             <h2 class="text-center font-extrabold text-2xl md:text-4xl mb-16 md:mb-32 dark:text-white">My Skills</h2>
-            <div class="flex flex-col md:flex-row justify-center items-center md:space-x-16 space-y-14 md:space-y-0 text-white">
-                <div class="border-2 rounded-xl border-black w-60 h-60 bg-[#222] text-xl cursor-pointer hover:bg-black grid place-items-center p-4">
+            <div
+                class="flex flex-col md:flex-row justify-center items-center md:space-x-16 space-y-14 md:space-y-0 text-white">
+                <div
+                    class="border-2 rounded-xl border-black w-60 h-60 bg-[#222] text-xl cursor-pointer hover:bg-black grid place-items-center p-4">
                     <div class="flex flex-col items-center text-center">
                         <div class="font-bold mb-2">Languages</div>
                         <ul class="list-none space-y-1">
@@ -144,8 +155,9 @@
                         </ul>
                     </div>
                 </div>
-    
-                <div class="border-2 rounded-xl border-black w-60 h-60 bg-[#222] text-xl cursor-pointer hover:bg-black grid place-items-center p-4">
+
+                <div
+                    class="border-2 rounded-xl border-black w-60 h-60 bg-[#222] text-xl cursor-pointer hover:bg-black grid place-items-center p-4">
                     <div class="flex flex-col items-center text-center">
                         <div class="font-bold mb-2">Computer Essentials</div>
                         <ul class="list-none space-y-1">
@@ -156,8 +168,9 @@
                         </ul>
                     </div>
                 </div>
-    
-                <div class="border-2 rounded-xl border-black w-60 h-60 bg-[#222] text-xl cursor-pointer hover:bg-black grid place-items-center p-4">
+
+                <div
+                    class="border-2 rounded-xl border-black w-60 h-60 bg-[#222] text-xl cursor-pointer hover:bg-black grid place-items-center p-4">
                     <div class="flex flex-col items-center text-center">
                         <div class="font-bold mb-2">Developer Tools</div>
                         <ul class="list-none space-y-1">
@@ -169,8 +182,9 @@
                         </ul>
                     </div>
                 </div>
-    
-                <div class="border-2 rounded-xl border-black w-60 h-60 bg-[#222] text-xl cursor-pointer hover:bg-black grid place-items-center p-4">
+
+                <div
+                    class="border-2 rounded-xl border-black w-60 h-60 bg-[#222] text-xl cursor-pointer hover:bg-black grid place-items-center p-4">
                     <div class="flex flex-col items-center text-center">
                         <div class="font-bold mb-2">Other Skills</div>
                         <ul class="list-none space-y-1">
@@ -188,118 +202,131 @@
     </section>
 
     <!-- Link section starts----------------- -->
-<section class="w-full h-full dark:bg-neutral-800">
-    <div  id="link" class="">
-        <h2 class="text-center font-extrabold text-2xl md:text-4xl mb-10 dark:text-white py-20">Links <p class="">My coding profiles</p></h2>
-         
-        <div class="flex flex-col justify-center items-center space-y-14 text-blue-600 text-xl dark:text-sky-300">   <!--flex-column -->
-            <div class="flex flex-row justify-center items-center space-x-12">    <!--flex-row -->
-            <img class="h-32 w-32" src="./images/link1-leetcode.jpeg">
-            <a href="https://leetcode.com/u/rishabh180705/" target="_blank">Leetcode</a>
-            
-           </div>
-            
-           <div class="flex flex-row justify-center items-center space-x-12 ">    <!--flex-row -->
-            <!-- <img class="" src="./images/cnlogo-32511.png"> -->
-            <div class=" w-32 h-32  rounded-full border-4 border-solid  bg-[url('./images/cnlogo-32511.png')] bg-no-repeat bg-cover bg-center"></div>
-            
-            <a href="https://www.naukri.com/code360/profile/rishabhsingh18" class="cc">Coding Ninjas</a>
-           </div>
+    <section class="w-full h-full dark:bg-neutral-800">
+        <div id="link" class="">
+            <h2 class="text-center font-extrabold text-2xl md:text-4xl mb-10 dark:text-white py-20">Links <p class="">My
+                    coding profiles</p>
+            </h2>
 
-           <div class="flex flex-row justify-center items-center space-x-12">    <!--flex-row -->
-            <!-- <div class=" w-64 h-64  rounded-full border-4 border-solid  bg-[url('./images/link3-gfg.jpeg')] bg-no-repeat bg-cover bg-center"></div> -->
-            <img class="h-32 w-32 overflow-hidden" src="./images/link3-gfg.jpeg">
-            <a href="https://www.geeksforgeeks.org/user/rishabh180705/" target="_blank">Geeks for Geeks</a>
-            
-           </div>
+            <div class="flex flex-col justify-center items-center space-y-14 text-blue-600 text-xl dark:text-sky-300">
+                <!--flex-column -->
+                <div class="flex flex-row justify-center items-center space-x-12"> <!--flex-row -->
+                    <img class="h-32 w-32" src="./images/link1-leetcode.jpeg">
+                    <a href="https://leetcode.com/u/rishabh180705/" target="_blank">Leetcode</a>
 
-           <div class="flex flex-row justify-center items-center space-x-12">    <!--flex-row -->
-            <img class="w-32 h-32 " src="./images/link4-hr.jpeg">
-            <a href="https://www.hackerrank.com/sadhanaksharma6?hr_r=1" target="_blank">HackerRank</a>
-           </div>
+                </div>
 
-           <div class="flex flex-row justify-center items-center space-x-12">    <!--flex-row -->
-            <img class="w-32 h-32 " src="./images/link5-cf.jpeg">
-            <a href="https://codeforces.com/profile/SadhanaSharma1" target="_blank">CodeForces</a>
-           </div>
-         </div> 
-    </div>
-</section>
-<!-- link section end -->
-  <!-- Achievements section starts---------------------- -->
-<section class="w-full h-full py-32 dark:bg-neutral-800" id="achievement">
-    <div class="max-width">
-        <h2 class="title text-3xl font-extrabold text-center dark:text-white">Achievements</h2>
-         <div class="achievement-content">
-            <main class="achieve">
-               <img src="./certificates/Screenshot 2024-05-21 201533.png" alt="" class="slide absolute">
-               <img src="./certificates/Screenshot 2024-05-21 201646.png" alt="" class="slide absolute">
-               <img src="./certificates/Screenshot 2024-05-21 201746.png" alt="" class="slide absolute">
-               <img src="./certificates/Screenshot 2024-05-21 201815.png" alt="" class="slide absolute">
-               
-               <!-- <img src="achieve-SQL.jpeg" alt="" class="slide">
+                <div class="flex flex-row justify-center items-center space-x-12 "> <!--flex-row -->
+                    <!-- <img class="" src="./images/cnlogo-32511.png"> -->
+                    <div
+                        class=" w-32 h-32  rounded-full border-4 border-solid  bg-[url('./images/cnlogo-32511.png')] bg-no-repeat bg-cover bg-center">
+                    </div>
+
+                    <a href="https://www.naukri.com/code360/profile/rishabhsingh18" class="cc">Coding Ninjas</a>
+                </div>
+
+                <div class="flex flex-row justify-center items-center space-x-12"> <!--flex-row -->
+                    <!-- <div class=" w-64 h-64  rounded-full border-4 border-solid  bg-[url('./images/link3-gfg.jpeg')] bg-no-repeat bg-cover bg-center"></div> -->
+                    <img class="h-32 w-32 overflow-hidden" src="./images/link3-gfg.jpeg">
+                    <a href="https://www.geeksforgeeks.org/user/rishabh180705/" target="_blank">Geeks for Geeks</a>
+
+                </div>
+
+                <div class="flex flex-row justify-center items-center space-x-12"> <!--flex-row -->
+                    <img class="w-32 h-32 " src="./images/link4-hr.jpeg">
+                    <a href="https://www.hackerrank.com/sadhanaksharma6?hr_r=1" target="_blank">HackerRank</a>
+                </div>
+
+                <div class="flex flex-row justify-center items-center space-x-12"> <!--flex-row -->
+                    <img class="w-32 h-32 " src="./images/link5-cf.jpeg">
+                    <a href="https://codeforces.com/profile/SadhanaSharma1" target="_blank">CodeForces</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- link section end -->
+    <!-- Achievements section starts---------------------- -->
+    <section class="w-full h-full py-32 dark:bg-neutral-800" id="achievement">
+        <div class="max-width">
+            <h2 class="title text-3xl font-extrabold text-center dark:text-white">Achievements</h2>
+            <div class="achievement-content">
+                <main class="achieve">
+                    <img src="./certificates/Screenshot 2024-05-21 201533.png" alt="" class="slide absolute">
+                    <img src="./certificates/Screenshot 2024-05-21 201646.png" alt="" class="slide absolute">
+                    <img src="./certificates/Screenshot 2024-05-21 201746.png" alt="" class="slide absolute">
+                    <img src="./certificates/Screenshot 2024-05-21 201815.png" alt="" class="slide absolute">
+
+                    <!-- <img src="achieve-SQL.jpeg" alt="" class="slide">
                <img src="achieve-SSoC.jpeg" alt="" class="slide">
                <img src="achieve-unkahi.jpeg" alt="" class="slide"> -->
 
-            </main>
-            <div class="n">
-                <button onClick="goPrev()">
-                    Prev
-                </button>
-                <button onClick="goNext()">
-                    Next
-                </button>
+                </main>
+                <div class="n">
+                    <button onClick="goPrev()">
+                        Prev
+                    </button>
+                    <button onClick="goNext()">
+                        Next
+                    </button>
+                </div>
+
+
             </div>
-
-             
-        </div> 
-    </div>
-</section>
-
-<!-- contact me section starts--------------------------- -->
-
-<section class="contact h-full w-full mt-16" id="contact">
-    <div class=" flex justify-center items-center">
-    <div class="max-width md:w-1/2 w-4/5">
-        <h2 class="title text-3xl font-extrabold text-center mt-20">Contact me <p class="title_btm">get in touch</p></h2>
-        <div class="contact-content">
-        
-                <form class="dark:text-black" target="_blank" action="https://formsubmit.co/rishabh180705@gmail.com" method="POST">
-                  <div class="form-group">
-                    <div class="form-row">
-                      <div class="col">
-                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                      </div>
-                      <div class="col">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                      </div>
-
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <input type="text" class="form-control" name="subject" placeholder="Write your subject here"></input>
-                  </div>
-                  <div class="form-group">
-                    <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
-                  </div>
-                  <input type="submit" class="btn btn-lg btn-dark btn-block">
-                </form>
-              
         </div>
-    </div>
-</div>
-</section>
+    </section>
 
-<!-- footer section starts------------- -->
-<footer class="footerz dark:bg-slate-500 py-12 bg-sky-300" >
-    <div class="foot dark:bg-slate-500">
-    <a class="footer-link" href="https://www.linkedin.com/in/rishabh-singh-506491221"><i class="fa fa-linkedin"></i></a>
-    <a class="footer-link" href="https://github.com/rishabh180705"><i class="fa fa-github"></i></a>
-        <a class="footer-link" href="https://www.instagram.com/its_rishidev18/"><i class="fa fa-instagram"></i></a>
-        <a class="footer-link" href="https://rishabh180705.github.io/portfolio--Rishabh/"><i class="fa fa-globe"></i></a>
-    </div>
-    <p class="bot text-xl font-bold dark:text-white dark:bg-slate-500">© 2024 Rishabh Singh @ The programmer</p>
-</footer>
+    <!-- contact me section starts--------------------------- -->
+
+    <section class="contact h-full w-full mt-16" id="contact">
+        <div class=" flex justify-center items-center">
+            <div class="max-width md:w-1/2 w-4/5">
+                <h2 class="title text-3xl font-extrabold text-center mt-20">Contact me <p class="title_btm">get in touch
+                    </p>
+                </h2>
+                <div class="contact-content">
+
+                    <form class="dark:text-black" target="_blank" action="https://formsubmit.co/rishabh180705@gmail.com"
+                        method="POST">
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" name="name" class="form-control" placeholder="Full Name"
+                                        required>
+                                </div>
+                                <div class="col">
+                                    <input type="email" name="email" class="form-control" placeholder="Email Address"
+                                        required>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="subject"
+                                placeholder="Write your subject here"></input>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" class="form-control" name="message" rows="10"
+                                required></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-lg btn-dark btn-block">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section starts------------- -->
+    <footer class="footerz dark:bg-slate-500 py-12 bg-sky-300">
+        <div class="foot dark:bg-slate-500">
+            <a class="footer-link" href="https://www.linkedin.com/in/rishabh-singh-506491221"><i
+                    class="fa fa-linkedin"></i></a>
+            <a class="footer-link" href="https://github.com/rishabh180705"><i class="fa fa-github"></i></a>
+            <a class="footer-link" href="https://www.instagram.com/its_rishidev18/"><i class="fa fa-instagram"></i></a>
+            <a class="footer-link" href="#"><i class="fa fa-globe"></i></a>
+        </div>
+        <p class="bot text-xl font-bold dark:text-white dark:bg-slate-500">© 2024 Rishabh Singh @ The programmer</p>
+    </footer>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
