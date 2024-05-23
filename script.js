@@ -8,11 +8,30 @@ const body=document.querySelector("body")
 const moon=document.querySelector("#moon");
 const time=document.querySelector("#time");
 
+function changeTimeFormat() {
+    let date = new Date();
+ 
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+ 
+    // Check whether AM or PM
+    let newformat = hours >= 12 ? 'PM' : 'AM';
+ 
+    // Find current hour in AM-PM Format
+    hours = hours % 12;
+ 
+    // To display "0" as "12"
+    hours = hours ? hours : 12;
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+ 
+    time.innerHTML= `${hours}:${minutes} ${ newformat}`;
+}
+ 
 
 setInterval(function() {
-    let date=new Date();  
-time.innerHTML=date.toLocaleTimeString();
+    changeTimeFormat();
 },1000);
+
 moon.addEventListener('click', () => {
     body.classList.toggle('dark');
 }); 
@@ -78,3 +97,4 @@ slides.forEach(
   }
 )
 }
+
